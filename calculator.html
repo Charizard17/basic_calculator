@@ -13,67 +13,69 @@
             height: 100%;
         }
         .divFirst{
-            width: 400px;
-            height: 431px;
+            width: 1000px;
+            height: 900px;
             position: relative;
-            margin-left: 30px;
-            margin-top: 20px;
+            margin-left: 100px;
+            margin-top: 40px;
             background: url("phone.png") no-repeat;
-            background-size: 319px;
+            background-size: 670px;
         }
         .divSecond{
-            width: 176px;
-            height: 353px;
+            width: 368px;
+            height: 738px;
             border: 1px solid black;
-            border-radius: 13px;
+            border-radius: 20px;
             position: relative;
-            margin-left: 37px;
-            margin-top: -13px;
+            margin-left: 80px;
+            margin-top: -3px;
             background: rgb(8, 87, 74);
 
         }
         table{
             text-align: center;
             font-weight: 600;
-            margin-left: 20px;
-            margin-top: 10px;
+            margin-left: 36px;
+            margin-top: 50px;
         }
         h5{
             color: white;
             margin-left: 15px;
+            font-size: 30px;
             float: left;
             font-family: 'Merienda', cursive;
         }
         input{
-            height: 50px;
-            width: 50px;
+            height: 100px;
+            width: 100px;
         }
         .showResult{
-            width: 126px;
-            height: 25px;
+            width: 300px;
+            height: 50px;
             background: white;
             color: #0d0d8a85;
             position: relative;
-            margin-left: -103px;
+            margin-left: 30px;
             margin-top: 70px;
-            font-size: 20px;
+            font-size: 40px;
             border: 2px solid black;
             border-radius: 10px;
             text-indent: 10px;
         }
         .logo{
-            width: 30px;
-            margin-top: 20px;
-            margin-left: 10px;
+            width: 60px;
+            margin-top: 40px;
+            margin-left: 15px;
         }
         .button{
-            width: 30px;
-            height: 30px;
+            width: 70px;
+            height: 70px;
             background: navy;
             color: white;
             border: 1px solid black;
-            border-radius: 20px;
+            border-radius: 35px;
             font-family: 'Patrick Hand', cursive;
+            font-size: 50px;
         }
 
     </style>
@@ -91,7 +93,7 @@
                 <thead>
                     <tr>
                         <th><input class="button" type="button" value="C" onclick="clean()"></th>
-                        <th><input class="button" type="button" value="Del" style="font-size: 11px;" onclick="del()"></th>
+                        <th><input class="button" type="button" value="Del" style="font-size: 40px;" onclick="del()"></th>
                         <th><input class="button" type="button" value="/" onclick="insert('/')"></th>
                         <th><input class="button" type="button" value="x" onclick="insert('*')"></th>         
                     </tr>
@@ -113,10 +115,10 @@
                         <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
                         <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
                         <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
-                        <td rowspan="2"><input class="button" type="button" style="height: 66px;" value="=" onclick="euqal()"></td>
+                        <td rowspan="2"><input class="button" type="button" style="height: 140px;" value="=" onclick="euqal()"></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input class="button" type="button" style="width: 66px;" value="0" onclick="insert(0)"></td>
+                        <td colspan="2"><input class="button" type="button" style="width: 140px;" value="0" onclick="insert(0)"></td>
                         <td><input class="button" type="button" value="." onclick="insert('.')"></td>
                     </tr>
                 </tbody>
